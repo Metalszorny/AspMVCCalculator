@@ -2,23 +2,38 @@
 function textbox1OnChange()
 {
     // The value is not empty.
-    if (document.getElementById("FirstOperandTextBox").value !== "") {
+    if (document.getElementById("FirstOperandTextBox").value !== "")
+    {
         // Disable the buttons.
         disableButtons();
 
         // The value is number type.
-        if (!isNaN(document.getElementById("FirstOperandTextBox").value)) {
+        if (!isNaN(document.getElementById("FirstOperandTextBox").value))
+        {
             // Disable error image.
             enableErrorImage(true, 1);
         }
-            // The value is not number type.
-        else {
+        // The value is not number type.
+        else
+        {
             // Enable error image.
             enableErrorImage(false, 1);
         }
 
         // Enable the buttons.
         enableButton();
+    }
+    // The value is not empty.
+    else
+    {
+        // Enable the buttons.
+        document.getElementById("CalculationCalculateButton").disabled = true;
+
+        // Both values are empty.
+        if (document.getElementById("FirstOperandTextBox").value === "" && document.getElementById("SecondOperandTextBox").value === "")
+        {
+            document.getElementById("ResetButton").disabled = true;
+        }
     }
 }
 
@@ -46,6 +61,18 @@ function textbox2OnChange()
 
         // Enable the buttons.
         enableButton();
+    }
+    // The value is not empty.
+    else
+    {
+        // Enable the buttons.
+        document.getElementById("CalculationCalculateButton").disabled = true;
+
+        // Both values are empty.
+        if (document.getElementById("FirstOperandTextBox").value === "" && document.getElementById("SecondOperandTextBox").value === "")
+        {
+            document.getElementById("ResetButton").disabled = true;
+        }
     }
 }
 
