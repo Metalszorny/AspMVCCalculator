@@ -9,7 +9,7 @@ An ASP MVC 5 test web application that adds two numbers given in the operands te
 
 Used Languages:
 ---------------
-- C#
+- Visual C#
 - HTML
 - CSS
 - JavaScript
