@@ -13,9 +13,8 @@ namespace AspMVCCalculator.Controllers
     {
         #region Methods
 
-        // GET: Calculation
         /// <summary>
-        /// Pre Index view.
+        /// The GET controller of the Index view.
         /// </summary>
         /// <returns>The Index view.</returns>
         public ActionResult Index()

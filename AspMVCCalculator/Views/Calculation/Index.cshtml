@@ -12,13 +12,16 @@
         <link href="~/Content/CalculationStyle.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+		<!-- Header -->
         <div class="CalculationHeader">
             <img src="~/Resources/Logo.png" class="CalculationLogoImage" />
             <div class="CalculationTooltip2"></div>
+			<!-- Tooltip -->
             <span class="CalculationTooltip">Just A Test</span>
             <div class="CalculationTooltip3"></div>
         </div>
         <hr class="CalculationSeperatorLine" />
+		<!-- Content -->
         <div class="CalculationMain">
             <div class="CalculationMain2">
                 <div class="CalculationSpace"></div>
@@ -27,17 +30,20 @@
                         <label class="CalculationTitleLabel">Összeadás</label>
                         <hr class="CalculationUnderLine" />
                         <form class="CalculationForm">
+							<!-- First operand -->
                             <div class="FirstOperandContainer">
                                 <label class="FirstOperandLabel Label">Első érték</label>
                                 <img src="~/Resources/Error.png" class="FirstOperandErrorImage" id="FirstOperandErrorImage" hidden />
                                 <input type="text" value="" class="FirstOperandTextBox TextBox" name="firstOperand" id="FirstOperandTextBox" onkeyup="textbox1OnChange()" />
                             </div>
+							<!-- Second operand -->
                             <div class="SecondOperandContainer">
                                 <label class="SecondOperandLabel Label">Második érték</label>
                                 <img src="~/Resources/Error.png" class="SecondOperandErrorImage" id="SecondOperandErrorImage" hidden />
                                 <input type="text" value="" class="SecondOperandTextBox TextBox" name="secondOperand" id="SecondOperandTextBox" onkeyup="textbox2OnChange()" />
                             </div>
                             <input type="button" value="Számol" class="CalculationCalculateButton Button" id="CalculationCalculateButton" onclick="button1OnClick()" disabled />
+							<!-- Result -->
                             <div class="SumContainer">
                                 <label class="SumLabel Label">Végeredmény</label>
                                 <input type="text" value="" class="SumTextBox TextBox" name="sumOperand" id="SumTextBox" />
@@ -48,6 +54,7 @@
                 </div>
             </div>
         </div>
+		<!-- Footer -->
         <div class="CalculationFooter">
             <div class="CalculationCredits">
                 <div class="CalculationName">Kóder Károly</div>

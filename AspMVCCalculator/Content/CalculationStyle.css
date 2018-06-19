@@ -1,40 +1,33 @@
-﻿body
-{
+﻿body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     margin: 0;
 }
 
-div.CalculationHeader
-{
+div.CalculationHeader {
     height: 70px;
     background-color: #a5d181;
 }
 
-img.CalculationLogoImage
-{
+img.CalculationLogoImage {
     padding-top: 25px;
     display: block;
     margin: auto;
 }
 
-div.CalculationTooltip2
-{
+div.CalculationTooltip2 {
     display: none;
 }
 
-span.CalculationTooltip
-{
+span.CalculationTooltip {
     display: none;
 }
 
-div.CalculationTooltip3
-{
+div.CalculationTooltip3 {
     display: none;
 }
 
-div.CalculationHeader:hover div.CalculationTooltip2
-{
+div.CalculationHeader:hover div.CalculationTooltip2 {
     display: block;
     height: 0;
     width: 0;
@@ -46,8 +39,7 @@ div.CalculationHeader:hover div.CalculationTooltip2
 	border-bottom: 20px solid #6d6e6b;
 }
 
-div.CalculationHeader:hover span.CalculationTooltip
-{
+div.CalculationHeader:hover span.CalculationTooltip {
     font-weight: bold;
     font-size: 11px;
     display: block;
@@ -65,8 +57,7 @@ div.CalculationHeader:hover span.CalculationTooltip
     top: 60px;
 }
 
-div.CalculationHeader:hover div.CalculationTooltip3
-{
+div.CalculationHeader:hover div.CalculationTooltip3 {
     display: block;
     height: 0;
     width: 0;
@@ -78,36 +69,31 @@ div.CalculationHeader:hover div.CalculationTooltip3
 	border-bottom: 20px solid white;
 }
 
-hr.CalculationSeperatorLine
-{
+hr.CalculationSeperatorLine {
     border: 0;
     margin: 0;
     background: #6d6e6b;
     height: 2px;
 }
 
-div.CalculationMain
-{
+div.CalculationMain {
     height: 488px;
     background-image: url("../Resources/BG_tile_textil.png");
     color: black;
 }
 
-div.CalculationMain2
-{
+div.CalculationMain2 {
     height: 100%;
     background-image: url("../Resources/BG_gradlight.png");
     background-position: center;
     background-repeat: repeat-y;
 }
 
-div.CalculationSpace
-{
+div.CalculationSpace {
     height: 30px;
 }
 
-div.CalculationPanel
-{
+div.CalculationPanel {
     height: 428px;
     width: 300px;
     margin-left: auto;
@@ -120,20 +106,16 @@ div.CalculationPanel
     background-color: #ededed;
 }
 
-div.CalculationArea
-{
-    /*margin: 20px;*/
+div.CalculationArea {
     padding: 20px;
 }
 
-label.Label
-{
+label.Label {
     float: left;
     padding-top: 5px;
 }
 
-input.TextBox
-{
+input.TextBox {
     float: right;
     height: 22px;
     width: 110px;
@@ -146,40 +128,35 @@ input.TextBox
     padding-top: 0px;
 }
 
-input.Button
-{
+input.Button {
     background-image: linear-gradient(#a1d181, #7a9762);
     color: #ffffff;
     border-width: 1px;
     border-color: #808080;
 }
 
-input.Button:hover
-{
+input.Button:hover {
     background-image: linear-gradient(#5f7f46, #5f7f46);
     color: #ffffff;
     border-width: 1px;
     border-color: #808080;
 }
 
-input.Button:active
-{
+input.Button:active {
     background-image: linear-gradient(#7a9762, #a1d181);
     color: #ffffff;
     border-width: 1px;
     border-color: #808080;
 }
 
-input.Button:disabled
-{
+input.Button:disabled {
     background-image: linear-gradient(#a4a4a4, #505050);
     color: #ffffff;
     border-width: 1px;
     border-color: #808080;
 }
 
-label.CalculationTitleLabel
-{
+label.CalculationTitleLabel {
     height: 28px;
     font-size: 13px;
     text-align: center;
@@ -187,65 +164,54 @@ label.CalculationTitleLabel
     display: block;
 }
 
-hr.CalculationUnderLine
-{
+hr.CalculationUnderLine {
     border: 0;
     height: 2px;
     margin: 0;
     background: #a5d181;
 }
 
-form.CalculationForm
-{
+form.CalculationForm {
     padding-top: 24px;
 }
 
-div.FirstOperandContainer
-{
+div.FirstOperandContainer {
     height: 24px;
     margin-bottom: 5px;
 }
 
-label.FirstOperandLabel
-{
+label.FirstOperandLabel {
     margin-right: 40px;
     font-weight: normal;
 }
 
-img.FirstOperandErrorImage
-{
+img.FirstOperandErrorImage {
 
 }
 
-input.FirstOperandTextBox
-{
+input.FirstOperandTextBox {
     
 }
 
-div.SecondOperandContainer
-{
+div.SecondOperandContainer {
     height: 24px;
     margin-bottom: 24px;
 }
 
-label.SecondOperandLabel
-{
+label.SecondOperandLabel {
     margin-right: 17px;
     font-weight: normal;
 }
 
-img.SecondOperandErrorImage
-{
+img.SecondOperandErrorImage {
 
 }
 
-input.SecondOperandTextBox
-{
+input.SecondOperandTextBox {
     
 }
 
-input.CalculationCalculateButton
-{
+input.CalculationCalculateButton {
     height: 20px;
     width: 100px;
     margin-bottom: 24px;
@@ -254,24 +220,20 @@ input.CalculationCalculateButton
     margin-right: auto;
 }
 
-div.SumContainer
-{
+div.SumContainer {
     height: 24px;
     margin-bottom: 169px;
 }
 
-label.SumLabel
-{
+label.SumLabel {
     font-weight: normal;
 }
 
-input.SumTextBox
-{
+input.SumTextBox {
     
 }
 
-input.ResetButton
-{
+input.ResetButton {
     height: 20px;
     width: 100px;
     display: block;
@@ -279,29 +241,25 @@ input.ResetButton
     margin-right: auto;
 }
 
-div.CalculationFooter
-{
+div.CalculationFooter {
     height: 28px;
     background-color: #6d6e6b;
     color: white;
 }
 
-div.CalculationCredits
-{
+div.CalculationCredits {
     padding-top: 8px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
-div.CalculationName
-{
+div.CalculationName {
     float: left;
     font-weight: bold;
 }
 
-div.CalculationYear
-{
+div.CalculationYear {
     float: right;
     font-weight: bold;
 }
